@@ -1,3 +1,42 @@
 .main{
-    background-color: blueviolet;
+   height: 100vh;
+    display :flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, black 50%, #FECD70 50%);
+    .mainList{
+       
+        background-color: #D6CDA4;
+        align-items: center;
+        border-radius: 2vh;
+        box-shadow: 12px 12px 2px 1px saddlebrown;
+        padding: 5% 5% 5% 4%;
+        .heading{
+            font-size: 9rem;
+            font-weight: 500;
+            font-style: normal;
+            background-color: transparent;
+            color:black;
+        }
+    
+    }
+    .innerList{
+        display :flex;
+        width: 55vh;
+        justify-content: space-evenly;
+        align-items: center;
+        .incre{
+            font-size: 6rem;
+            font-weight: 600;
+            color: black;
+            cursor: pointer;
+        }
+        .conuterSteps{
+            font-size: 2rem;
+            font-weight: 800;
+            font-family: sans-serif;
+            color: #272727;
+        }
+    }
+
 }
