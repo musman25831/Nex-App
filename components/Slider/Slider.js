@@ -4,7 +4,6 @@ import styles from "./Slider.module.scss";
 const Slider = () => {
   const [counter, setCounter] = useState(1);
 
- 
   const handleIncrement = () => {
     if (counter <= 4) {
       setCounter(counter + 1);
@@ -15,6 +14,8 @@ const Slider = () => {
       setCounter(counter - 1);
     }
   };
+
+
 
   return (
     <div className={styles.main}>

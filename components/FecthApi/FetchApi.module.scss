@@ -1,0 +1,22 @@
+.backGround{
+    background: linear-gradient(120deg, #283d3b 50%, #c44536 50%);
+
+    .main{
+        display: flex;
+        margin-bottom: 2rem;
+        justify-content: space-between;
+        flex-direction:row;
+        align-items: center;
+       align-items: center;
+        list-style: none;
+        .overflow{
+            width: 30%;
+            background-color: lightblue;
+            overflow: scroll;
+            scroll-behavior: calc(20%);
+        }
+        .emoji{
+            margin-right: 2rem;
+        }
+    }
+}
