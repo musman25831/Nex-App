@@ -1,0 +1,49 @@
+.main{
+    background-color:  black;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    .Checkbox{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    }
+    .name{
+
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 1.1;
+        color: burlywood;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        line-height: 1.1;
+        color: burlywood;
+        
+    }
+    
+        .btn{
+            position: relative;
+            left:  18rem;
+            align-items: center;
+            width: 50rem;
+            height: 1rem;
+            padding: 1.12rem;
+            margin: 1rem;
+            background-color: transparent;
+            color: aqua;
+            border-radius: 0.12rem;
+            margin-bottom: 2rem;
+        }
+    
+}
